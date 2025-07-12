@@ -1,0 +1,28 @@
+body{
+    background: #F3EDE2;
+}
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: #080F13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 100;
+
+    .overlay-text{
+        font-family: "Ranchers", sans-serif;
+        color: #F3EDE2;
+        font-size: 8rem;
+    }
+
+    .overlay-circle{
+        position: absolute;
+        border-radius: 50%;
+        background-color: #F3EDE2;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+}
